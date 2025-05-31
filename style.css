@@ -1,0 +1,161 @@
+.bg-black {
+    background-color: black;
+}
+.bg-deepblue {
+    background-color: #1a0551;
+}
+.bg-navblue {
+    background-color: #0a2b4c;
+}
+.bg-darkblue {
+    background-color: #00008b;
+}
+
+.text-gold {
+    color: gold;
+}
+.text-white {
+    color: white;
+}
+.text-medipurple {
+    color: #9370db;
+}
+.text-navblue {
+    color: #0a2b4c;
+}
+.text-purple {
+    color: purple;
+}
+
+.navbaar-shadow {
+    box-shadow: 3px 4px 5px #07357a;
+}
+.box-shadow-about {
+    box-shadow: -8px -1px 15px -3px #07357a inset;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+.font-20 {
+    font-size: 20px;
+}
+.font-24 {
+    font-size: 24px;
+}
+.font-28 {
+    font-size: 28px;
+}
+.font-32 {
+    font-size: 32px;
+}
+.font-38 {
+    font-size: 38px;
+}
+.font-50 {
+    font-size: 50px;
+}
+
+.py-120 {
+    padding: 120px 0;
+}
+
+.b-r-8 {
+    border-radius: 8px;
+}
+
+.top-4 {
+    top: 4px;
+}
+
+.w-100px {
+    width: 100px;
+}
+
+.h-400 {
+    height: 400px;
+}
+  
+.icons {
+    width: 50%;
+}
+
+.social-icons {
+    border: 1px solid #07357a;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+}
+
+.form-control {
+    border: 3px solid #055360;
+    background: linear-gradient(to right, #dd7676, #7a7af0);
+}
+
+.btn.btn-primary {
+    color: #9370db;
+    background-color: #d9f7f6;
+    border-radius: 8px 0 8px 0;
+}
+.btn.btn-primary:hover {
+    color:  #d9f7f6;
+    background-color: #9370db;
+    border-radius: 0 8px 0 8px;
+}
+
+.footer-color {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.9725490196), rgba(1, 23, 46, 0.8470588235), 
+                rgba(33, 37, 41, 0.8509803922));
+}
+
+.text-gradiant {
+    background: linear-gradient(45deg, #0905de, #f86d02);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+    animation: gradient-rotation 5s linear infinite;
+}
+
+.footer-icons {
+    width: 200px;
+}
+  
+.footer-social {
+    color: #ffffff;
+    font-size: 24px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+}
+.footer-social:hover {
+    background: linear-gradient(90deg, #deb887, #15416d);
+    color: rgb(2, 2, 22);
+}
+
+.icons-w-h {
+    height: 200px;
+    width: 172px;
+}
+
+.project-hover {
+    border: 1px solid #1a0551;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+.project-hover:hover {
+    box-shadow: 2px 2px 5px 1px #ffffff;
+}
+
+a:hover {
+    color: gold;
+}
+
+.skill-logo-hover:hover {
+    color: white;
+}
+
+.text-hover:hover {
+    color: #055360;
+    border-bottom: 1px solid #055360;
+}
