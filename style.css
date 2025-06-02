@@ -1,3 +1,66 @@
+/* header */
+
+.sidebar-overlay {
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  .sidebar-overlay {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.75);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    display: none;
+  }
+  .sidebar-overlay.sidebar-overlay-show {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .right-sidebar {
+    position: fixed;
+    width: 70%;
+    left: -70%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 99;
+    transition: 1s ease;
+  }
+  .right-sidebar.mobile-sidebar-show {
+    left: 0;
+    background-color: #ffffff;
+    transition: 1s ease;
+  }
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-nav .nav-item {
+    padding: 14px 10px;
+    margin: 0 6px;
+  }
+}
+.navbar-nav .nav-item .nav-link {
+  margin-right: 30px;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  transform: scale(1.1);
+}
+@media screen and (max-width: 992px) {
+  .navbar-nav .nav-item .nav-link:hover {
+    transform: scale(1);
+  }
+}
+
+
+
 .bg-black {
     background-color: black;
 }
@@ -156,6 +219,11 @@ a:hover {
 }
 
 .text-hover:hover {
-    color: #055360;
-    border-bottom: 1px solid #055360;
+    color: #10df08;
+}
+
+@media screen and (min-width: 992px) {
+  .text-hover:hover {
+    border-bottom: 1px solid #10df08;
+  }
 }
