@@ -45,11 +45,13 @@
   .navbar-nav .nav-item {
     padding: 14px 10px;
     margin: 0 6px;
+    border-bottom: 1px solid gold;
   }
 }
 .navbar-nav .nav-item .nav-link {
   margin-right: 30px;
 }
+
 .navbar-nav .nav-item .nav-link:hover {
   transform: scale(1.1);
 }
@@ -226,4 +228,9 @@ a:hover {
   .text-hover:hover {
     border-bottom: 1px solid #10df08;
   }
+}
+
+.pro-img {
+    height: 90%;
+    object-fit: contain;
 }

@@ -1,0 +1,35 @@
+@use '../variable' as*;
+
+.button {
+    color: $white;
+    background-color: $skyblue;
+    font-size: $font-20;
+    border: none;
+    border-radius: $b-r-22;
+    padding: $space-6 $space-14;
+}
+
+.button-1 {
+    color: $skyblue;
+    background-color: $white;
+    font-size: $font-20;
+    border: none;
+    padding: $space-6 $space-14;
+}
+
+.box-icon {
+    color: $white;
+    background-color: $skyblue;
+    font-size: $font-20;
+    border-radius: $b-r-22;
+    padding: $space-10;
+}
+
+.round-btn {
+    color: $black;
+    background-color: $white;
+    font-size: $font-20;
+    border: none;
+    border-radius: $b-r-22;
+    padding: $space-6 $space-12;
+}

@@ -1,0 +1,41 @@
+@use '../variable' as *;
+
+@media screen and (max-width:$lg-breakpoint) {
+    .menu-btn {
+        order : 3;
+    }
+    .search-box {
+        order: 2;
+    }
+}
+
+.fs-services-box {
+    text-wrap: nowrap;
+    overflow-x: auto;
+    .fs-services-box-items {
+        margin-right: $space-92;
+    }
+    @media screen and (max-width:$xl-breakpoint) {
+        .fs-services-box-items {
+            margin-right: $space-56;
+        }
+    }
+}
+
+.about-box {
+    box-shadow: 12px 16px 50px #9A9A9A1F,
+                -12px -16px 50px #9A9A9A1F;
+    .about-box-icon {
+        background-color: #E3E3E373;
+        border-radius: $b-r-32;
+    }            
+}
+
+@media screen and (max-width:$md-breakpoint) {
+    .rf-box-img {
+        order: 2;
+    }
+    .rf-box-text {
+        order: 1;
+    }
+}

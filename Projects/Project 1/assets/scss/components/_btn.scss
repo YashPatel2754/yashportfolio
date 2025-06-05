@@ -1,0 +1,67 @@
+@use '../variable' as*;
+
+.button {
+    color: $white;
+    background-color: $orange;
+    font-size: $font-16;
+    font-weight: $fw-700;
+    border: none;
+    border-radius: $b-r-32;
+    padding: $space-8 $space-20;
+    &:hover {
+        color: $orange;
+        border: $border-width-1 $border-style-solid $orange;
+        background-color: $white;
+    }
+}
+
+.main-btn {
+    color: $white;
+    background-color: $orange;
+    font-size: $font-20;
+    font-weight: $fw-700;
+    border: none;
+    border-radius: $b-r-32;
+    padding: $space-16 $space-32;
+    @media screen and (max-width:$lg-breakpoint) {
+        font-size: $font-16;
+        font-weight: $fw-500;
+        padding: $space-8 $space-20;
+    }
+    &:hover {
+        color: $orange;
+        background-color: $white;
+        border: $border-width-1 $border-style-solid $orange;
+    }
+}
+
+.lm-btn {
+    color: $orange;
+    font-size: $font-20;
+    font-weight: $fw-700;
+    border: $border-width-1 $border-style-solid $orange;
+    border-radius: $b-r-32;
+    padding: $space-16 $space-32;
+    @media screen and (max-width:$lg-breakpoint) {
+        font-size: $font-16;
+        font-weight: $fw-500;
+        padding: $space-8 $space-20;
+    }
+    &:hover {
+        color: $white;
+        background-color: $orange;
+    }
+}
+
+.submit-btn {
+    color: $orange;
+    font-size: $font-16;
+    font-weight: $fw-500;
+    border: $border-width-1 $border-style-solid $orange;
+    border-radius: $b-r-32;
+    padding: $space-8 $space-20;
+    &:hover {
+        color: $white;
+        background-color: $orange;
+    }
+}

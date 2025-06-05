@@ -1,0 +1,17 @@
+@use '../variable' as *;
+
+.navbar-brand{
+    font-size: $font-30;
+    background-color: $white;
+    padding: $space-6;
+    border: $border-width-5 $border-style-solid $skyblue;
+    border-start-start-radius: $b-r-22;
+    border-bottom-right-radius: $b-r-22;
+}
+
+.footer-icons {
+    color: $white;
+    :hover {
+        color: $skyblue;
+    }
+}

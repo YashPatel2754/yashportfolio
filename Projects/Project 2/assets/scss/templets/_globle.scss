@@ -1,0 +1,67 @@
+@use '../variable' as *;
+
+.pt-80px {
+    padding-top:$space-80;
+}
+.mr-10px {
+    margin-right: -10px;
+}
+
+.height-300px {
+    height: $height-300;
+} 
+.height-400px {
+    height: $height-400;
+} 
+.height-615px {
+    height: $height-615;
+}
+
+.m-h-350px {
+    max-height:$height-350;
+}
+.m-h-650px {
+    max-height:$height-650;
+}
+
+.bg-black {
+    background-color:$light-black;
+}
+.bg-dark-aquamarine {
+    background-color: $dark-aquamarine;
+}
+.bg-gray {
+    background-color: $gray;
+}
+.bg-orange {
+    background-color: $orange;
+}
+
+.text-white {
+    color:$white;
+}
+.text-yellow {
+    color: $yellow;
+}
+
+.font-20 {
+    font-size: $font-20;
+}
+.font-26 {
+    font-size: $font-26;
+}
+.font-30 {
+    font-size: $font-30;
+}
+
+.b-10px {
+    border: $border-width-10 solid $skyblue;
+}
+
+.b-r-50 {
+    border-radius: 50%;
+}
+
+.list-style-none {
+    list-style-type: none;
+}

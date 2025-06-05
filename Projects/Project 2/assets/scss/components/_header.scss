@@ -1,0 +1,90 @@
+@use '../variable';
+
+.sidebar-overlay {
+    display: none;
+
+    @media screen and (max-width: variable.$lg-breakpoint) {
+        position: fixed;
+        background: rgba(0, 0, 0, 0.75);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        display: none;
+
+        &.sidebar-overlay-show {
+            display: block;
+            
+        }
+    }
+
+}
+.right-sidebar {
+    @media screen and (max-width: variable.$lg-breakpoint) {
+        position: fixed;
+        width: 70%;
+        left: -70%;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 99;
+        transition: variable.$transition;
+
+        &.mobile-sidebar-show {
+            left: 0;
+            background-color: variable.$white;
+            transition: variable.$transition;
+        }
+    }
+}
+.navbar{
+    background-color: variable.$black;
+    width: 100%;
+    z-index: 100;
+    .navbar-brand{
+        font-size: variable.$font-30;
+        background-color: variable.$white;
+        padding: variable.$space-6;
+        border: variable.$border-width-5 variable.$border-style-solid variable.$skyblue;
+        border-start-start-radius: variable.$b-r-22;
+        border-bottom-right-radius: variable.$b-r-22;
+    }
+    .navbar-nav{
+        .nav-item{
+            @media screen and (max-width: variable.$md-breakpoint) {
+                padding: variable.$space-14 variable.$space-10;
+                border-bottom: variable.$border-width-1 variable.$border-style-solid variable.$skyblue;
+                margin: 0 variable.$space-6;
+            }
+            .nav-link{
+                font-size: variable.$font-20;
+                color: variable.$white;
+                margin-right:variable.$space-30;
+                position: relative; 
+                @media screen and (min-width: variable.$lg-breakpoint) {
+                    &::after{
+                        content: "";
+                        display: block;
+                        width: initial;
+                        height: 2px;
+                        transition: variable.$transition;
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                    } 
+                } 
+                &:hover::after{
+                    width: 100%;
+                }
+                &:hover{
+                    color: variable.$skyblue;
+                }
+                @media screen and (max-width: variable.$lg-breakpoint) {
+                    width: fit-content;
+                    color: variable.$skyblue;
+                }
+            }
+        }
+    }
+}

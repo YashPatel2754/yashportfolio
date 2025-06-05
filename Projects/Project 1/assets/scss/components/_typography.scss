@@ -1,0 +1,25 @@
+@use '../variable' as *;
+
+h1 {
+    font-weight: $fw-700;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: $font-48;
+    @media screen and (max-width:$lg-breakpoint) {
+        font-size: $font-38;
+    }
+    @media screen and (max-width:$sm-breakpoint) {
+        font-size: $font-32;
+    }
+}
+
+h2 , .h2 {
+    font-weight: $fw-700;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: $font-40;
+    @media screen and (max-width:$lg-breakpoint) {
+        font-size: $font-30;
+    }
+    @media screen and (max-width:$sm-breakpoint) {
+        font-size: $font-26;
+    }
+}
